@@ -1,4 +1,5 @@
 var palindrome = function(word) {
+  word = word.toString();
   word = word.split('');
   word1 = word.slice();
 
